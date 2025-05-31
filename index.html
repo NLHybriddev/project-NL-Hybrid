@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title> Project NL Hybrid</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://i.postimg.cc/vHsqJWd4/cdn-discordapp-com-2365853759425342.webp" type="image/x-icon">
+
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #0e0e1c;
+      color: white;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0; left: 0;
+      width: 100vw; height: 100vh;
+      background: url('https://raw.githubusercontent.com/VincentGarreau/particles.js/master/demo/media/stars.png') repeat;
+      animation: moveStars 100s linear infinite;
+      z-index: -5;
+      opacity: 0.4;
+    }
+
+    @keyframes moveStars {
+      0% { background-position: 0 0; }
+      100% { background-position: -10000px 10000px; }
+    }
+
+    header {
+      text-align: center;
+      padding: 5rem 2rem 3rem;
+    }
+
+    h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 3.5rem;
+      color: #00ffff;
+      text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+      margin-bottom: 2rem;
+    }
+
+    .download-btn {
+      display: inline-block;
+      background: #00ffff;
+      color: #000;
+      font-size: 1.2rem;
+      font-weight: bold;
+      padding: 1rem 2.5rem;
+      border-radius: 50px;
+      box-shadow: 0 0 25px #00ffff;
+      text-decoration: none;
+      transition: 0.3s ease;
+    }
+
+    .download-btn:hover {
+      background: #00e0e0;
+      box-shadow: 0 0 35px #00ffff;
+      transform: scale(1.05);
+    }
+
+    .discord-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 1.5rem;
+      background: #5865F2;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 50px;
+      box-shadow: 0 0 15px #5865F2;
+      transition: all 0.3s ease;
+    }
+
+    .discord-btn img {
+      width: 24px;
+      height: 24px;
+    }
+
+    .discord-btn:hover {
+      background: #4752C4;
+      box-shadow: 0 0 25px #5865F2;
+      transform: scale(1.05);
+    }
+
+    section {
+      padding: 4rem 2rem;
+      max-width: 900px;
+      margin: auto;
+      text-align: center;
+    }
+
+    section h2 {
+      color: #00ffff;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      text-shadow: 0 0 10px #00ffff;
+    }
+
+    .glass-card {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(20px);
+      padding: 2rem;
+      border-radius: 15px;
+      margin-top: 2rem;
+      box-shadow: 0 0 20px rgba(0,255,255,0.1);
+    }
+
+    .glass-card img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #00ffff;
+      box-shadow: 0 0 15px #00ffff;
+    }
+
+    .glass-card h3 {
+      color: #00ffff;
+      font-size: 1.5rem;
+      margin-top: 1rem;
+    }
+
+    .glass-card p {
+      color: #ccc;
+      font-size: 1rem;
+      margin-top: 0.5rem;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #888;
+      padding: 2rem 0;
+    }
+
+    @media (max-width: 600px) {
+      h1 { font-size: 2.2rem; }
+      .download-btn { font-size: 1rem; padding: 0.8rem 1.8rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>NL Hybrid</h1>
+    <a href="https://github.com/NLHybriddev/NL-Hybird-Download/raw/refs/heads/main/NLHybrid-5182025.rar" class="download-btn">Download NL Hybrid</a>
+
+    <br/>
+    <a href="https://discord.gg/thyjG9AEdG" class="discord-btn" target="_blank">
+      <img src="https://cdn.jsdelivr.net/gh/edent/SuperTinyIcons/images/svg/discord.svg" alt="Discord" />
+      Join our Discord
+    </a>
+  </header>
+
+  <section>
+    <h2>💡 Key Features</h2>
+    <div class="glass-card">
+      <p>✔ Unlock all Fortnite cosmetics</p>
+      <p>✔ Safe secure stat changer</p>
+      <p>✔ Easy-to-use interface</p>
+      <p>✔ Keys expire every 48 hours for protection</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>👨‍💻 Developer</h2>
+    <div class="glass-card">
+      <img src="https://i.postimg.cc/PrWXgfQr/46d75469bf2755c4b3d76ad717cd0e4b.png" alt="Dev Profile" />
+      <h3>[neq]</h3>
+      <p>Creator of Project NL Hybrid. Focused on performance, simplicity, and security. Reach out for updates or help!</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>📢 Need Help?</h2>
+    <div class="glass-card">
+      <p>Join the Discord: <strong>@xt7w</strong></p>
+      <p>Contact for support, key issues, or updates.</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Project NL Hybrid. All rights reserved.
+  </footer>
+
+</body>
+</html>
